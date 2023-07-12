@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nike-landingpage/static/css/main.b3a44319.css",
+    "main.js": "/nike-landingpage/static/js/main.d65d0a88.js",
+    "static/media/shoe_image.png": "/nike-landingpage/static/media/shoe_image.dccc3913a4c46169fc5a.png",
+    "index.html": "/nike-landingpage/index.html",
+    "main.b3a44319.css.map": "/nike-landingpage/static/css/main.b3a44319.css.map",
+    "main.d65d0a88.js.map": "/nike-landingpage/static/js/main.d65d0a88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3a44319.css",
+    "static/js/main.d65d0a88.js"
+  ]
+}
