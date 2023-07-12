@@ -9,13 +9,13 @@ const Navbar = () => {
     return (
         <>
             <div className="main md:max-w-[1440px] md:mx-auto py-2">
-                <div className="grid grid-cols-2">
-                    <div className="img">
+                <div className="grid grid-cols-2 px-3">
+                    <div className={` "img " ${open ? 'col-span-2' : ''} `}>
                         <img src={brandLogo} alt="BrandLogo" />
                     </div>
-
-                    <div className={` 'main-ul lg:flex lg:justify-around gap-5' ${open ? 'absolute top-20 left-1/2 right-1/2 ' : 'hidden'}`}   >
-                        <ul className='flex justify-evenly items-center gap-8'>
+                    {/* ${open ? 'absolute top-20 left-1/2 right-1/2 ' : 'hidden'} */}
+                    <div className={` 'main-ul lg:flex lg:justify-around gap-5' ${open ? 'col-span-2 flex-nowrap ' : 'hidden'}`}   >
+                        <ul className='flex justify-center items-center gap-8'>
                             {
                                 navItems.map((item, ind) => {
                                     return <li className='cursor-pointer font-semibold hover:text-red-600' key={ind}>{item}</li>
